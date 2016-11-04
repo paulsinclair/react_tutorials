@@ -21,4 +21,4 @@ var XCheckbox = React.createClass({
 
 })
 
-ReactDOM.render(<XCheckbox/>,document.getElementById("entry-point-chk"))
+ReactDOM.render(<XCheckbox/>,document.getElementById("entry-point"))

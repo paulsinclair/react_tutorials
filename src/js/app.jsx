@@ -1,3 +1,7 @@
+ import React from "react";
+ import ReactDOM from "react-dom";
+ import Top from "./Headers/top"
+
 var App = React.createClass({
 
     getInitialState: function(){
@@ -14,6 +18,7 @@ var App = React.createClass({
             {
             return (
                 <div>
+                    <Top/>
                     <h1 >{this.state.count} < /h1>
                     <button onClick = {this.count}>Click Me!</button>
                 </div>
@@ -21,4 +26,4 @@ var App = React.createClass({
             }
 })
 
-ReactDOM.render(<App/>,document.getElementById('entry-point-app'))
+ReactDOM.render(<App/>,document.getElementById("entry-point"))
